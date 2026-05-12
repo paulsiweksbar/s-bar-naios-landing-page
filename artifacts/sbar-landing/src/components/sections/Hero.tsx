@@ -21,10 +21,10 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
-          className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight text-foreground mb-6"
+          className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.08] sm:leading-[1.05] tracking-tight text-foreground mb-6 max-w-5xl mx-auto text-balance"
         >
-          Raising the Bar<br />
-          in <em className="text-primary not-italic">Industrial Outdoor Storage.</em>
+          Raising the Bar<br className="hidden sm:block" />
+          <span className="block">in <em className="text-primary not-italic">Industrial Outdoor Storage.</em></span>
         </motion.h1>
 
         <motion.p
