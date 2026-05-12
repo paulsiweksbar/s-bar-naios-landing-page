@@ -4,33 +4,33 @@ import { HardHat, Zap, ShieldCheck, Building2, Wrench, ClipboardList } from "luc
 export function Services() {
   const services = [
     {
-      title: "Site Grading & Paving",
-      description: "Heavy-duty concrete, asphalt, and stabilized aggregate surfaces built for 80,000 lb loads.",
+      title: "Full Site Buildout",
+      description: "From raw land to operational yard — grading, drainage, heavy-duty paving, and site infrastructure built to handle fleet and logistics tenants.",
       icon: <HardHat size={28} className="text-primary" />
     },
     {
-      title: "Lighting & Electrical",
-      description: "High-mast LED yard lighting and comprehensive power distribution for modern operations.",
+      title: "Electrical & Lighting",
+      description: "Full LED site lighting for 24/7 operations, electrical service, and EV-ready infrastructure for modern fleet tenants.",
       icon: <Zap size={28} className="text-primary" />
     },
     {
-      title: "Security & Access",
-      description: "Automated gates, perimeter fencing, guard shacks, and integrated security infrastructure.",
+      title: "Security & Perimeter",
+      description: "High-security fencing, automated gates, and camera-ready access control — the security setup tenants expect and lenders want to see.",
       icon: <ShieldCheck size={28} className="text-primary" />
     },
     {
-      title: "Facility Construction",
-      description: "Ground-up builds and remodels for cross-docks, maintenance bays, and terminal offices.",
+      title: "Office & Amenities",
+      description: "Guard booths, modular offices, driver restrooms, and numbered stall systems that reduce tenant friction and support longer leases.",
       icon: <Building2 size={28} className="text-primary" />
     },
     {
-      title: "Maintenance & Repairs",
-      description: "Ongoing yard maintenance, pothole repair, striping, and facility upkeep to preserve value.",
+      title: "Maintenance & CapEx",
+      description: "Surface repairs, lighting upkeep, and planned capital programs that protect your site quality and keep occupancy strong.",
       icon: <Wrench size={28} className="text-primary" />
     },
     {
-      title: "Permitting & Planning",
-      description: "Navigating local municipalities, environmental compliance, and site layout optimization.",
+      title: "Tenant Improvement",
+      description: "Custom buildouts for IOS operators — loading pads, dispatch zones, on-site storage, and access improvements that speed up lease-up.",
       icon: <ClipboardList size={28} className="text-primary" />
     }
   ];

@@ -12,11 +12,11 @@ export function Projects() {
       tags: ["National MSA", "20+ Projects"]
     },
     {
-      title: "IOV — Broadway IOS Facility",
-      description: "Complete ground-up development of a premier Industrial Outdoor Storage facility. Extensive site grading, heavy-duty paving, perimeter security, and modern operations building designed for high-flow logistics.",
-      stats: "12 Acres  ·  Full Site Development  ·  Houston, TX",
+      title: "IOV Broadway — Spec Office Remodel",
+      description: "Selected by Industrial Outdoor Ventures for a full 12,136 SF office remodel — demolition, sealed concrete floors, bathroom and breakroom renovation, LED lighting conversion, full interior/exterior paint, and building envelope sealing.",
+      stats: "12,136 SF  ·  Denver, CO",
       image: projectIov,
-      tags: ["Ground-Up", "Turnkey"]
+      tags: ["Office Make-Ready", "6-Week Timeline"]
     }
   ];
 
