@@ -10,12 +10,12 @@ export function Clients() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="w-full max-w-6xl mx-auto"
+          className="w-full max-w-7xl mx-auto"
         >
           <img
             src={workWithImage}
             alt="Who We Work With"
-            className="w-full h-auto rounded-xl block"
+            className="w-full h-auto rounded-xl block object-cover"
           />
         </motion.div>
       </div>
