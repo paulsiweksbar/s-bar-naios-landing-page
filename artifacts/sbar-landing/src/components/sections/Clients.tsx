@@ -19,12 +19,12 @@ export function Clients() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="w-full"
+          className="w-full bg-black p-4 md:p-5 rounded-xl"
         >
           <img
             src={workWithImage}
             alt="Who We Work With"
-            className="w-full h-auto rounded-xl block object-cover"
+            className="w-full h-auto block object-cover"
           />
         </motion.div>
       </div>
