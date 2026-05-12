@@ -21,10 +21,10 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
-          className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.08] sm:leading-[1.05] tracking-tight text-foreground mb-6 max-w-5xl mx-auto text-balance"
+          className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.12] sm:leading-[1.08] tracking-tight text-foreground mb-6 max-w-5xl mx-auto text-balance"
         >
-          Raising the Bar<br className="hidden sm:block" />
-          <span className="block">in <em className="text-primary not-italic">Industrial Outdoor Storage.</em></span>
+          <span className="block">Raising the Bar</span>
+          <span className="block mt-2 sm:mt-3">in <em className="text-primary not-italic">Industrial Outdoor Storage.</em></span>
         </motion.h1>
 
         <motion.p
@@ -41,18 +41,18 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
-          className="mt-20 border border-border rounded-xl overflow-hidden flex flex-col md:flex-row bg-card mx-auto max-w-4xl"
+          className="mt-14 sm:mt-16 md:mt-20 rounded-xl overflow-hidden flex flex-col md:flex-row bg-card mx-auto max-w-4xl"
         >
-          <div className="flex-1 p-8 text-center border-b md:border-b-0 md:border-r border-border">
-            <div className="font-serif text-4xl font-bold text-primary leading-none mb-2">100%</div>
+          <div className="flex-1 p-6 sm:p-8 text-center border-b md:border-b-0 md:border-r border-border">
+            <div className="font-serif text-3xl sm:text-4xl font-bold text-primary leading-none mb-2">100%</div>
             <div className="text-[11px] text-muted-foreground uppercase tracking-[1px]">On-Time Completion</div>
           </div>
-          <div className="flex-1 p-8 text-center border-b md:border-b-0 md:border-r border-border">
-            <div className="font-serif text-4xl font-bold text-primary leading-none mb-2">11+</div>
+          <div className="flex-1 p-6 sm:p-8 text-center border-b md:border-b-0 md:border-r border-border">
+            <div className="font-serif text-3xl sm:text-4xl font-bold text-primary leading-none mb-2">11+</div>
             <div className="text-[11px] text-muted-foreground uppercase tracking-[1px]">States Active</div>
           </div>
-          <div className="flex-1 p-8 text-center">
-            <div className="font-serif text-4xl font-bold text-primary leading-none mb-2">25+</div>
+          <div className="flex-1 p-6 sm:p-8 text-center">
+            <div className="font-serif text-3xl sm:text-4xl font-bold text-primary leading-none mb-2">25+</div>
             <div className="text-[11px] text-muted-foreground uppercase tracking-[1px]">IOS Projects Delivered</div>
           </div>
         </motion.div>
