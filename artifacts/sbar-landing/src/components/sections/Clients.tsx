@@ -3,19 +3,19 @@ import workWithImage from "@assets/Screenshot_2026-05-12_at_9.42.46_PM_177860236
 
 export function Clients() {
   return (
-    <section className="py-4 md:py-6">
-      <div className="mx-auto max-w-[140rem] px-0 sm:px-2 lg:px-4">
+    <section className="py-20 border-b border-border">
+      <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="w-full"
+          className="w-full max-w-6xl mx-auto"
         >
           <img
             src={workWithImage}
             alt="Who We Work With"
-            className="w-full h-auto rounded-xl block shadow-[0_0_0_1px_rgba(255,255,255,0.04)]"
+            className="w-full h-auto rounded-xl block"
           />
         </motion.div>
       </div>
