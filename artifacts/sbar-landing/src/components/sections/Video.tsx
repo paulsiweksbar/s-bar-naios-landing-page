@@ -44,9 +44,6 @@ export function VideoSection() {
               <h3 className="font-serif text-xl md:text-2xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
                 The Anatomy of a Modern IOS Site
               </h3>
-              <p className="text-[14px] text-muted-foreground max-w-3xl">
-                Walk the yard with our project managers as we break down the critical infrastructure components that separate a basic parking lot from a high-yield industrial asset.
-              </p>
             </div>
           </a>
         </motion.div>
