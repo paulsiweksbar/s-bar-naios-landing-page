@@ -49,7 +49,7 @@ export function Contact() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-[#222]">
             <a href="https://www.sbarconstruction.com/" target="_blank" rel="noopener noreferrer">
-              <img src={sbarLogo} alt="S-Bar Construction" className="h-10 object-contain opacity-80 hover:opacity-100 transition-opacity" />
+              <img src={sbarLogo} alt="S-Bar Construction" className="h-14 md:h-16 object-contain opacity-80 hover:opacity-100 transition-opacity" />
             </a>
             
           </div>
