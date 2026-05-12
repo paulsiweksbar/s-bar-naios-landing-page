@@ -1,44 +1,44 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, ArrowRight } from "lucide-react";
+import { Mail, Phone, MapPin, Globe } from "lucide-react";
 import sbarLogo from "@assets/sbar_logo.png";
 
 export function Contact() {
   return (
     <>
-      <section id="contact" className="py-24 border-b border-border bg-card/30">
+      <section id="contact" className="py-20 border-b border-border bg-card/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="max-w-4xl mx-auto bg-card border border-border rounded-xl p-8 md:p-10 shadow-xl"
+            className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-8 items-center"
           >
-            <h2 className="font-serif text-3xl md:text-4xl font-bold leading-tight text-foreground mb-4">
-              Request a Bid
-            </h2>
-            <p className="text-[15px] text-muted-foreground leading-relaxed mb-8 max-w-md">
-              Fill out the form below and our estimating team will get back to you within 24 hours.
-            </p>
-            <div className="space-y-5">
-              <a href="mailto:info@sbarconstruction.com" className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors group">
-                <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                  <Mail size={18} />
-                </div>
-                <span className="text-[14px] font-medium text-foreground">info@sbarconstruction.com</span>
-              </a>
-              <a href="tel:7135550198" className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors group">
-                <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                  <Phone size={18} />
-                </div>
-                <span className="text-[14px] font-medium text-foreground">(713) 555-0198</span>
-              </a>
-              <div className="flex items-center gap-4 text-muted-foreground group">
-                <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center">
-                  <MapPin size={18} />
-                </div>
-                <span className="text-[14px] font-medium text-foreground">Houston, TX (HQ)</span>
+            <div className="max-w-xl">
+              <div className="inline-flex items-center gap-2 text-[10px] font-semibold tracking-[2.5px] uppercase text-primary mb-4 before:content-[''] before:w-5 before:h-px before:bg-primary">
+                Get in touch
               </div>
+              <h2 className="font-serif text-3xl md:text-5xl font-bold leading-tight text-foreground mb-4">
+                Let's build your <em className="text-primary not-italic">IOS site.</em>
+              </h2>
+              <p className="text-[14px] md:text-[15px] text-muted-foreground leading-relaxed max-w-lg">
+                Acquiring a new yard, repositioning an existing site, or need a reliable contractor for ongoing CapEx? Reach out — we're a straightforward conversation, not a sales pitch.
+              </p>
+            </div>
+
+            <div className="lg:justify-self-end space-y-5">
+              <a href="mailto:adam@sbarconstruction.com" className="flex items-center gap-3 text-[13px] md:text-[14px] text-muted-foreground hover:text-primary transition-colors">
+                <Mail size={14} className="text-primary shrink-0" />
+                <span className="font-medium text-foreground">adam@sbarconstruction.com</span>
+              </a>
+              <div className="flex items-center gap-3 text-[13px] md:text-[14px] text-muted-foreground">
+                <MapPin size={14} className="text-primary shrink-0" />
+                <span>Houston, TX · Serving North America</span>
+              </div>
+              <a href="https://www.sbarconstruction.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-[13px] md:text-[14px] text-muted-foreground hover:text-primary transition-colors">
+                <Globe size={14} className="text-primary shrink-0" />
+                <span className="font-medium text-foreground">sbarconstruction.com</span>
+              </a>
             </div>
           </motion.div>
         </div>
