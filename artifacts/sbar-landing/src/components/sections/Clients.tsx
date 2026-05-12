@@ -3,7 +3,7 @@ import workWithImage from "@assets/Screenshot_2026-05-12_at_9.42.46_PM_177860236
 
 export function Clients() {
   return (
-    <section className="py-20 border-b border-border">
+    <section className="py-24 md:py-28 border-b border-border">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <motion.div
