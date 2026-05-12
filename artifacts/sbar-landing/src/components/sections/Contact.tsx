@@ -1,10 +1,24 @@
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Globe } from "lucide-react";
 import sbarLogo from "@assets/sbar_logo.png";
+import clientsImage from "@assets/Screenshot_2026-05-12_at_11.29.29_PM_1778608775104.png";
 
 export function Contact() {
   return (
     <>
+      <section className="py-20 border-b border-border">
+        <div className="container mx-auto px-6">
+          <motion.img
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            src={clientsImage}
+            alt="Who We Work With"
+            className="w-full h-auto rounded-xl block object-cover"
+          />
+        </div>
+      </section>
       <section id="contact" className="py-20 border-b border-border bg-card/30">
         <div className="container mx-auto px-6">
           <motion.div
