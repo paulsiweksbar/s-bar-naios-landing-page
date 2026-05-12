@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Globe } from "lucide-react";
+import { Mail, MapPin, Globe, Linkedin, Youtube } from "lucide-react";
 import sbarLogo from "@assets/sbar_logo.png";
 import clientsImage from "@assets/Screenshot_2026-05-12_at_11.29.29_PM_1778608775104.png";
 
@@ -41,9 +41,9 @@ export function Contact() {
             </div>
 
             <div className="lg:justify-self-end space-y-5">
-              <a href="mailto:adam@sbarconstruction.com" className="flex items-center gap-3 text-[13px] md:text-[14px] text-muted-foreground hover:text-primary transition-colors">
+              <a href="mailto:paul@sbarconstruction.com" className="flex items-center gap-3 text-[13px] md:text-[14px] text-muted-foreground hover:text-primary transition-colors">
                 <Mail size={14} className="text-primary shrink-0" />
-                <span className="font-medium text-foreground">adam@sbarconstruction.com</span>
+                <span className="font-medium text-foreground">paul@sbarconstruction.com</span>
               </a>
               <div className="flex items-center gap-3 text-[13px] md:text-[14px] text-muted-foreground">
                 <MapPin size={14} className="text-primary shrink-0" />
@@ -59,13 +59,20 @@ export function Contact() {
       </section>
 
       {/* FOOTER */}
-      <footer className="bg-[#080c14] pt-12 pb-8 border-t border-border">
+      <footer className="bg-black pt-12 pb-8 border-t border-border">
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-[#222]">
             <a href="https://www.sbarconstruction.com/" target="_blank" rel="noopener noreferrer">
               <img src={sbarLogo} alt="S-Bar Construction" className="h-14 md:h-16 object-contain opacity-80 hover:opacity-100 transition-opacity" />
             </a>
-            
+            <div className="flex items-center gap-4">
+              <a href="https://www.linkedin.com/company/s-bar-construction/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <Linkedin size={20} />
+              </a>
+              <a href="https://www.youtube.com/@S-BarConstruction" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <Youtube size={20} />
+              </a>
+            </div>
           </div>
           
           <div className="text-[12px] text-[#666] text-center mt-6">
