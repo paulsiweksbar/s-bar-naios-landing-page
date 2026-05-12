@@ -30,7 +30,7 @@ export function Blog() {
           We don’t just build IOS sites — we write about them. Two reads that show how we think.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {posts.map((post, idx) => (
             <motion.a
               key={idx}
@@ -41,19 +41,24 @@ export function Blog() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="group block bg-[#171717] border border-border rounded-xl p-6 md:p-8 hover:border-primary transition-colors duration-300 shadow-[0_0_0_1px_rgba(255,255,255,0.02)]"
+              className="group block bg-[#171717] border border-border rounded-xl p-5 md:p-6 hover:border-primary transition-colors duration-300 shadow-[0_0_0_1px_rgba(255,255,255,0.02)]"
             >
-              <div className="text-[10px] font-bold tracking-[1.5px] uppercase text-primary mb-3">
-                {post.category}
+              <div className="flex items-center justify-between gap-4 mb-4">
+                <div className="text-[10px] font-bold tracking-[1.5px] uppercase text-primary">
+                  {post.category}
+                </div>
+                <div className="w-8 h-8 rounded-full border border-border flex items-center justify-center text-primary transition-colors group-hover:bg-primary group-hover:text-black group-hover:border-primary">
+                  <ArrowUpRight size={14} />
+                </div>
               </div>
-              <h3 className="font-serif text-[22px] md:text-[24px] font-bold text-foreground mb-3 leading-tight group-hover:text-primary transition-colors">
+              <h3 className="font-serif text-[18px] md:text-[19px] font-bold text-foreground mb-3 leading-snug group-hover:text-primary transition-colors">
                 {post.title}
               </h3>
-              <p className="text-[14px] md:text-[15px] text-muted-foreground leading-relaxed mb-8 max-w-[92%]">
+              <p className="text-[13px] md:text-[14px] text-muted-foreground leading-relaxed mb-5">
                 {post.excerpt}
               </p>
-              <div className="inline-flex items-center gap-2 text-[13px] font-semibold text-primary transition-all duration-200 group-hover:gap-3">
-                Read on sbarconstruction.com <ArrowUpRight size={16} />
+              <div className="inline-flex items-center gap-2 text-[12px] font-semibold text-primary transition-all duration-200 group-hover:gap-3">
+                Read on sbarconstruction.com
               </div>
             </motion.a>
           ))}
