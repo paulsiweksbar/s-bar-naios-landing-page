@@ -35,7 +35,7 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a href="https://www.sbarconstruction.com/" target="_blank" rel="noopener noreferrer" className="flex items-center">
-          <img src={sbarLogo} alt="S-Bar Construction" className="h-10 object-contain" />
+          <img src={sbarLogo} alt="S-Bar Construction" className="h-14 md:h-16 object-contain" />
         </a>
 
         {/* Desktop Nav */}
