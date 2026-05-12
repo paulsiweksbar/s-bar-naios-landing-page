@@ -52,14 +52,6 @@ export function Contact() {
               <img src={sbarLogo} alt="S-Bar Construction" className="h-10 object-contain opacity-80 hover:opacity-100 transition-opacity" />
             </a>
             
-            <div className="flex items-center gap-8 flex-wrap justify-center">
-              <a href="mailto:info@sbarconstruction.com" className="text-[13px] font-medium text-[#aaaaaa] hover:text-primary transition-colors flex items-center gap-2">
-                <Mail size={16} /> info@sbarconstruction.com
-              </a>
-              <a href="https://www.sbarconstruction.com/" target="_blank" rel="noopener noreferrer" className="text-[13px] font-medium text-[#aaaaaa] hover:text-primary transition-colors flex items-center gap-2">
-                Website
-              </a>
-            </div>
           </div>
           
           <div className="text-[12px] text-[#666] text-center mt-6">
