@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 
 export function Hero() {
   return (
@@ -37,20 +36,6 @@ export function Hero() {
           S-Bar Construction builds, upgrades, and maintains IOS sites across North America.
           Fast timelines. Zero surprises. Sites that perform.
         </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
-          className="flex justify-center gap-4 flex-wrap"
-        >
-          <Button asChild size="lg" className="font-bold tracking-wide rounded-md px-8 hover-elevate">
-            <a href="#projects">View Past Work</a>
-          </Button>
-          <Button asChild variant="outline" size="lg" className="font-bold tracking-wide rounded-md px-8 hover-elevate border-border hover:border-primary hover:text-primary transition-colors">
-            <a href="#contact">Contact Us</a>
-          </Button>
-        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}

@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle2, Crosshair, Navigation, Clock } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { CheckCircle2, Crosshair, Navigation, Clock } from "lucide-react";
 
 export function About() {
   const values = [
@@ -54,12 +53,6 @@ export function About() {
                 From raw parcel to fully operational site — one contractor, one point of contact, no surprises.
               </p>
             </div>
-            <Button asChild className="font-bold tracking-wide rounded-md px-6 hover-elevate group">
-              <a href="#contact">
-                Work with Us
-                <ArrowRight size={16} className="ml-2 transition-transform group-hover:translate-x-1" />
-              </a>
-            </Button>
           </motion.div>
 
           <motion.div

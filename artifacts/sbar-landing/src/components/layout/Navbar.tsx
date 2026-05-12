@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-import { Link } from "wouter";
-import { Button } from "@/components/ui/button";
 import sbarLogo from "@assets/sbar_logo.png";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
@@ -41,21 +39,16 @@ export function Navbar() {
         </a>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center space-x-8">
-          <div className="flex items-center space-x-6">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-              >
-                {link.name}
-              </a>
-            ))}
-          </div>
-          <Button asChild className="font-bold tracking-wide rounded-md px-6 hover-elevate">
-            <a href="#contact">Work with Us</a>
-          </Button>
+        <div className="hidden md:flex items-center space-x-6">
+          {navLinks.map((link) => (
+            <a
+              key={link.name}
+              href={link.href}
+              className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+            >
+              {link.name}
+            </a>
+          ))}
         </div>
 
         {/* Mobile Toggle */}
@@ -87,9 +80,6 @@ export function Navbar() {
                   {link.name}
                 </a>
               ))}
-              <Button asChild className="font-bold tracking-wide w-full mt-4">
-                <a href="#contact" onClick={() => setMobileMenuOpen(false)}>Work with Us</a>
-              </Button>
             </div>
           </motion.div>
         )}
