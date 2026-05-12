@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Play } from "lucide-react";
-import videoThumb from "@assets/field_video_thumbnail.jpg";
+import videoThumb from "@assets/Youtube_Thumbnails_for_SBAR_1778601364891.png";
 
 export function VideoSection() {
   return (
@@ -20,7 +20,7 @@ export function VideoSection() {
           transition={{ duration: 0.6 }}
         >
           <a 
-            href="https://www.youtube.com/watch?v=kYJmQ0s4M_c" 
+            href="https://youtu.be/2JWCS3Ng550?si=ETN66NHhr8uwCcS2" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group block bg-card border border-border rounded-xl overflow-hidden hover:border-primary transition-colors duration-300"
