@@ -6,7 +6,7 @@ import clientsImage from "@assets/Screenshot_2026-05-12_at_11.29.29_PM_177860877
 export function Contact() {
   return (
     <>
-      <section className="py-20 border-b border-border">
+      <section className="py-8 md:py-12 border-b border-border">
         <div className="container mx-auto px-6">
           <motion.img
             initial={{ opacity: 0, y: 20 }}
