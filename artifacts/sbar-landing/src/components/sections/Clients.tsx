@@ -3,8 +3,8 @@ import workWithImage from "@assets/Screenshot_2026-05-12_at_9.42.46_PM_177860236
 
 export function Clients() {
   return (
-    <section className="py-8 md:py-10 border-b border-border">
-      <div className="mx-auto max-w-[140rem] px-2 sm:px-4 lg:px-6">
+    <section className="py-4 md:py-6">
+      <div className="mx-auto max-w-[140rem] px-0 sm:px-2 lg:px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
