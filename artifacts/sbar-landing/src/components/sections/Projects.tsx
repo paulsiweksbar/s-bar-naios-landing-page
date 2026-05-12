@@ -5,14 +5,14 @@ import projectIov from "@assets/project_iov_broadway.jpg";
 export function Projects() {
   const projects = [
     {
-      title: "ABF Freight — Denver Terminal Remodel",
+      title: "ABF Freight — Denver Terminal",
       description: "Full terminal remodel covering office, dock, maintenance building, and yard. Major infrastructure upgrades, MEP modernization, restrooms, break rooms, and dock door enclosures across a 108-door cross-dock.",
       stats: "5,000 SF Offices  ·  15,000 SF Warehouses  ·  Denver, CO",
       image: projectAbf,
       tags: ["National MSA", "20+ Projects"]
     },
     {
-      title: "IOV Broadway — Spec Office Remodel",
+      title: "IOV Broadway — Spec Remodel",
       description: "Selected by Industrial Outdoor Ventures for a full 12,136 SF office remodel — demolition, sealed concrete floors, bathroom and breakroom renovation, LED lighting conversion, full interior/exterior paint, and building envelope sealing.",
       stats: "12,136 SF  ·  Denver, CO",
       image: projectIov,
