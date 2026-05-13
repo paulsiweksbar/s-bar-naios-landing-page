@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
+import clientsImage from "@assets/Customers_(1)_1778657548418.png";
 
 export function Blog() {
   const posts = [
@@ -20,6 +21,17 @@ export function Blog() {
   return (
     <section id="insights" className="py-20 border-b border-border">
       <div className="container mx-auto px-6">
+        <div className="mb-10">
+          <motion.img
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            src={clientsImage}
+            alt="Who We Work With"
+            className="w-full h-auto block object-cover"
+          />
+        </div>
         <div className="inline-flex items-center gap-2 text-[10px] font-semibold tracking-[2.5px] uppercase text-primary mb-4 before:content-[''] before:w-5 before:h-px before:bg-primary">
           Thought Leadership
         </div>
