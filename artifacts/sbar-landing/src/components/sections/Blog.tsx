@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
-import clientsImage from "@assets/Customers_(3)_1778660553623.png";
+import clientsImage from "@assets/Customers_(4)_1778660715999.png";
 
 export function Blog() {
   const posts = [
@@ -28,6 +28,22 @@ export function Blog() {
           Who We <em className="text-primary not-italic">Work With</em>
         </h2>
         <div className="mb-4">
+          <div className="block md:hidden">
+            <div className="inline-flex items-center gap-2 text-[10px] font-semibold tracking-[2.5px] uppercase text-primary mb-2 before:content-[''] before:w-5 before:h-px before:bg-primary">
+              Clients
+            </div>
+            <h2 className="font-serif text-2xl font-bold leading-tight text-foreground mb-3">
+              Who We <em className="text-primary not-italic">Work With</em>
+            </h2>
+          </div>
+          <div className="hidden md:block">
+            <div className="inline-flex items-center gap-2 text-[10px] font-semibold tracking-[2.5px] uppercase text-primary mb-2 before:content-[''] before:w-5 before:h-px before:bg-primary">
+              Clients
+            </div>
+            <h2 className="font-serif text-3xl md:text-4xl font-bold leading-tight text-foreground mb-3">
+              Who We <em className="text-primary not-italic">Work With</em>
+            </h2>
+          </div>
           <motion.img
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -35,7 +51,7 @@ export function Blog() {
             transition={{ duration: 0.6 }}
             src={clientsImage}
             alt="Who We Work With"
-            className="w-full h-auto block object-cover"
+            className="w-full h-auto block object-cover rounded-none md:rounded-none"
           />
         </div>
         <div className="inline-flex items-center gap-2 text-[10px] font-semibold tracking-[2.5px] uppercase text-primary mb-4 before:content-[''] before:w-5 before:h-px before:bg-primary">
