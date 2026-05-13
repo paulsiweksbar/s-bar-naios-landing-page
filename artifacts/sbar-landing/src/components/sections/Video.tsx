@@ -41,7 +41,7 @@ export function VideoSection() {
               <div className="text-[10px] font-bold tracking-[1.5px] uppercase text-primary mb-2">
                 Featured Video
               </div>
-              <h3 className="font-serif text-xl md:text-2xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
+              <h3 className="font-serif text-base md:text-lg font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
                 The Anatomy of a Modern IOS Site
               </h3>
             </div>
