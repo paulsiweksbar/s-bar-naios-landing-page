@@ -27,7 +27,7 @@ export function Blog() {
         <h2 className="font-serif text-3xl md:text-4xl font-bold leading-tight text-foreground mb-2">
           Who We <em className="text-primary not-italic">Work With</em>
         </h2>
-        <div className="mb-8">
+        <div className="mb-4">
           <motion.img
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
