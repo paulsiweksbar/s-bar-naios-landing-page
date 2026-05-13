@@ -21,6 +21,9 @@ export function Blog() {
   return (
     <section id="insights" className="py-20 border-b border-border">
       <div className="container mx-auto px-6">
+        <h2 className="font-serif text-3xl md:text-4xl font-bold leading-tight text-foreground mb-4">
+          Who We Work With
+        </h2>
         <div className="mb-10">
           <div className="inline-flex items-center gap-2 text-[10px] font-semibold tracking-[2.5px] uppercase text-primary mb-4 before:content-[''] before:w-5 before:h-px before:bg-primary">
             Clients
@@ -35,9 +38,6 @@ export function Blog() {
             className="w-full h-auto block object-cover"
           />
         </div>
-        <h2 className="font-serif text-3xl md:text-4xl font-bold leading-tight text-foreground mb-4">
-          Who We Work With
-        </h2>
         <div className="inline-flex items-center gap-2 text-[10px] font-semibold tracking-[2.5px] uppercase text-primary mb-4 before:content-[''] before:w-5 before:h-px before:bg-primary">
           Thought Leadership
         </div>
