@@ -18,7 +18,7 @@ export function Contact() {
               <div className="inline-flex items-center gap-2 text-[10px] font-semibold tracking-[2.5px] uppercase text-primary mb-4 before:content-[''] before:w-5 before:h-px before:bg-primary">
                 Get in touch
               </div>
-              <h2 className="font-serif text-3xl md:text-5xl font-bold leading-tight text-foreground mb-4">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold leading-tight text-foreground mb-4">
                 Let's build your <em className="text-primary not-italic">IOS site.</em>
               </h2>
               <p className="text-[14px] md:text-[15px] text-muted-foreground leading-relaxed max-w-lg">
