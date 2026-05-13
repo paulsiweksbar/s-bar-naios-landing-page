@@ -21,9 +21,6 @@ export function Blog() {
   return (
     <section id="insights" className="py-20 border-b border-border">
       <div className="container mx-auto px-6">
-        <div className="inline-flex items-center gap-2 text-[10px] font-semibold tracking-[2.5px] uppercase text-primary mb-2 before:content-[''] before:w-5 before:h-px before:bg-primary">
-          Clients
-        </div>
         <div className="mb-4">
           <div className="block md:hidden">
             <div className="inline-flex items-center gap-2 text-[10px] font-semibold tracking-[2.5px] uppercase text-primary mb-2 before:content-[''] before:w-5 before:h-px before:bg-primary">
