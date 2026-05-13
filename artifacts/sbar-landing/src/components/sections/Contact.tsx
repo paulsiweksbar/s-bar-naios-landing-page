@@ -6,13 +6,13 @@ export function Contact() {
   return (
     <>
       <section id="contact" className="py-20 border-b border-border bg-card/30">
-        <div className="container mx-auto px-6 md:px-0">
+        <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-8 items-center"
+            className="w-full grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-8 items-center"
           >
             <div className="max-w-xl">
               <div className="inline-flex items-center gap-2 text-[10px] font-semibold tracking-[2.5px] uppercase text-primary mb-4 before:content-[''] before:w-5 before:h-px before:bg-primary">
