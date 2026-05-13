@@ -66,7 +66,7 @@ export function Projects() {
                     </span>
                   ))}
                 </div>
-                <h3 className="font-serif text-lg font-bold text-foreground leading-snug">
+                <h3 className="font-serif text-[15px] font-bold text-foreground leading-snug">
                   {project.title}
                 </h3>
                 <p className="text-[13px] text-muted-foreground leading-relaxed">
