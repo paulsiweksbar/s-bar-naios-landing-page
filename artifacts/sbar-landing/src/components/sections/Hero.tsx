@@ -48,7 +48,7 @@ export function Hero() {
             <div className="text-[11px] text-muted-foreground uppercase tracking-[1px]">On-Time Completion</div>
           </div>
           <div className="flex-1 p-6 sm:p-8 text-center border-b md:border-b-0 md:border-r border-border">
-            <div className="font-serif text-3xl sm:text-4xl font-bold text-primary leading-none mb-2">11+</div>
+            <div className="font-serif text-3xl sm:text-4xl font-bold text-primary leading-none mb-2">12+</div>
             <div className="text-[11px] text-muted-foreground uppercase tracking-[1px]">States Active</div>
           </div>
           <div className="flex-1 p-6 sm:p-8 text-center">

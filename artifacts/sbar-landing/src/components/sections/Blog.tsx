@@ -51,7 +51,7 @@ export function Blog() {
         <div className="inline-flex items-center gap-2 text-[10px] font-semibold tracking-[2.5px] uppercase text-primary mb-4 before:content-[''] before:w-5 before:h-px before:bg-primary">
           Thought Leadership
         </div>
-        <h2 className="font-serif text-[20px] md:text-[24px] font-bold leading-tight text-foreground mb-4">
+        <h2 className="font-serif text-3xl md:text-4xl font-bold leading-tight text-foreground mb-4">
           Insights From the <em className="text-primary not-italic">Field</em>
         </h2>
         <p className="text-[15px] text-muted-foreground max-w-2xl leading-relaxed mb-12">

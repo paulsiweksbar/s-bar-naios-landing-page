@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import projectAbf from "@assets/project_abf_freight.jpg";
 import projectIov from "@assets/project_iov_broadway.jpg";
+import projectIovSanGabriel from "@assets/project_iov_san_gabriel.jpg";
+import projectWgaRoof from "@assets/wga-roof-remodel.jpeg";
 
 export function Projects() {
   const projects = [
@@ -17,6 +19,22 @@ export function Projects() {
       stats: "12,136 SF  ·  Denver, CO",
       image: projectIov,
       tags: ["Office Make-Ready", "6-Week Timeline"]
+    },
+    {
+      title: "IOV San Gabriel — Laredo",
+      description: "From demo to final stretch — this Laredo facility got the full treatment from S-Bar Construction: complete office remodel (bathrooms, breakrooms, workspaces), warehouse pressure washing, interior/exterior paint, new high-bay lighting, fresh asphalt with seal coating and striping, rebuilt chain link fencing with new gates, and new concrete poured around the perimeter.",
+      stats: "Full Site Transformation  ·  Laredo, TX",
+      image: projectIovSanGabriel,
+      imagePosition: "13% 62%",
+      tags: ["Full Scope", "Site Transformation"]
+    },
+    {
+      title: "GCWA Calder Water Treatment Plant",
+      description: "Full roof replacement: tear-off of old gravel roof, concrete panel removal, new BILCO roof hatch, exhaust fan framing, tapered ISO insulation, curbs at hatch/fans, TPO membrane, and final sealing — done in parallel with new treated fascia, 24-gauge metal fascia with cleat, and Hardie smooth soffit.",
+      stats: "Full Roof Replacement  ·  Dickinson, TX",
+      image: projectWgaRoof,
+      imagePosition: "center 80%",
+      tags: ["Roof Replacement", "TPO Membrane"]
     }
   ];
 
@@ -48,6 +66,7 @@ export function Projects() {
                   src={project.image} 
                   alt={project.title} 
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  style={{ objectPosition: project.imagePosition ?? "center" }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent md:hidden" />
               </div>
