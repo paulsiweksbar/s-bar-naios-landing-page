@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
-import clientsImage from "@assets/Customers_(4)_1778660715999.png";
+import clientsImage from "@assets/all-customers.png";
 
 export function Blog() {
   const posts = [

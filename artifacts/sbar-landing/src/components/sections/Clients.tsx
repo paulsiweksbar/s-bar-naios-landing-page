@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import workWithImage from "@assets/Screenshot_2026-05-12_at_11.33.59_PM_1778609041249.png";
+import allCustomers from "@assets/all-customers.png";
 
 export function Clients() {
   return (
@@ -22,7 +22,7 @@ export function Clients() {
           className="w-full bg-black p-4 md:p-5 rounded-xl"
         >
           <img
-            src={workWithImage}
+            src={allCustomers}
             alt="Who We Work With"
             className="w-full h-auto block object-cover"
           />

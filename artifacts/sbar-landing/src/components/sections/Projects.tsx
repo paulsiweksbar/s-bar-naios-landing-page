@@ -1,17 +1,17 @@
 import { motion } from "framer-motion";
-import projectAbf from "@assets/project_abf_freight.jpg";
+import projectRealtermPeyton from "@assets/realterm-peyton.png";
 import projectIov from "@assets/project_iov_broadway.jpg";
 import projectIovSanGabriel from "@assets/project_iov_san_gabriel.jpg";
-import projectWgaRoof from "@assets/wga-roof-remodel.jpeg";
+import projectRealtermRoof from "@assets/realterm-roof-aurora.png";
 
 export function Projects() {
   const projects = [
     {
-      title: "ABF Freight — Denver Terminal",
-      description: "Full terminal remodel covering office, dock, maintenance building, and yard. Major infrastructure upgrades, MEP modernization, restrooms, break rooms, and dock door enclosures across a 108-door cross-dock.",
-      stats: "5,000 SF Offices  ·  15,000 SF Warehouses  ·  Denver, CO",
-      image: projectAbf,
-      tags: ["National MSA", "20+ Projects"]
+      title: "REALTERM - Peyton",
+      description: "Full yard and site infrastructure remodel covering drainage, ditch regrading, and pavement at the Realterm/Formworks Houston facility. Major civil upgrades including a new storm water detention pond, head wall repairs, re-graded drainage ditches, and complete asphalt resurfacing across the yard.",
+      stats: "Site Infrastructure  ·  Houston, TX",
+      image: projectRealtermPeyton,
+      tags: ["Civil Work"]
     },
     {
       title: "IOV Broadway — Spec Remodel",
@@ -29,12 +29,11 @@ export function Projects() {
       tags: ["Full Scope", "Site Transformation"]
     },
     {
-      title: "GCWA Calder Water Treatment Plant",
-      description: "Full roof replacement: tear-off of old gravel roof, concrete panel removal, new BILCO roof hatch, exhaust fan framing, tapered ISO insulation, curbs at hatch/fans, TPO membrane, and final sealing — done in parallel with new treated fascia, 24-gauge metal fascia with cleat, and Hardie smooth soffit.",
-      stats: "Full Roof Replacement  ·  Dickinson, TX",
-      image: projectWgaRoof,
-      imagePosition: "center 80%",
-      tags: ["Roof Replacement", "TPO Membrane"]
+      title: "REALTERM - Roof Replacement",
+      description: "S-Bar Construction completed a full commercial roof replacement at Realterm's active freight terminal in Aurora, Colorado. The project involved a complete tear-off of the existing roof system and installation of a new EPDM rubber membrane across the full roof deck. All HVAC curbs were properly flashed and sealed to manufacturer specifications, and termination details along the perimeter were carefully executed to ensure long-term waterproofing integrity.",
+      stats: "Full Roof Replacement  ·  Aurora, CO",
+      image: projectRealtermRoof,
+      tags: ["Roof Replacement", "EPDM Membrane"]
     }
   ];
 
