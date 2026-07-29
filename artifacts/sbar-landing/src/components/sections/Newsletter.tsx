@@ -18,15 +18,17 @@ export function Newsletter() {
     setError("");
     
     try {
-      // Use form data approach which works better with Google Apps Script
-      const formData = new FormData();
-      formData.append("email", email);
-      
+      // Use no-cors mode - we can't read the response but the request goes through
       await fetch(GOOGLE_SCRIPT_URL, {
         method: "POST",
-        body: formData,
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: `email=${encodeURIComponent(email)}`,
       });
       
+      // With no-cors we can't verify success, but the request is sent
       setIsSubmitted(true);
       setEmail("");
     } catch {
