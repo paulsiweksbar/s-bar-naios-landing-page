@@ -48,15 +48,15 @@ export function Newsletter() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.5 }}
-          className="max-w-2xl mx-auto text-center"
         >
-          <div className="bg-[#171717] border border-border rounded-xl p-8 md:p-12 shadow-[0_0_0_1px_rgba(255,255,255,0.02)]">
-            <h2 className="font-serif text-2xl md:text-3xl font-bold leading-tight text-foreground mb-4">
-              S-Bar Construction projects and updates delivered to your inbox
-            </h2>
-            <p className="text-muted-foreground text-sm md:text-base mb-8">
-              Subscribe to our newsletter read by industry experts. Get insights on IOS development, project updates, and market trends.
-            </p>
+          <div className="bg-[#171717] border border-border rounded-xl p-6 sm:p-8 md:p-12 lg:p-16 shadow-[0_0_0_1px_rgba(255,255,255,0.02)]">
+            <div className="max-w-3xl mx-auto text-center">
+              <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold leading-tight text-foreground mb-4">
+                S-Bar Construction projects and updates delivered to your inbox
+              </h2>
+              <p className="text-muted-foreground text-sm md:text-base mb-8 max-w-xl mx-auto">
+                Subscribe to our newsletter read by industry experts. Get insights on IOS development, project updates, and market trends.
+              </p>
 
             {isSubmitted ? (
               <motion.div
@@ -68,7 +68,7 @@ export function Newsletter() {
                 <span className="font-medium">Thanks for subscribing!</span>
               </motion.div>
             ) : (
-              <form onSubmit={handleSubmit} className="flex flex-col gap-3">
+              <form onSubmit={handleSubmit} className="flex flex-col gap-3 max-w-xl mx-auto">
                 <div className="flex flex-col sm:flex-row gap-3">
                   <input
                     type="email"
@@ -81,7 +81,7 @@ export function Newsletter() {
                   <button
                     type="submit"
                     disabled={isLoading}
-                    className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-black font-semibold rounded-lg hover:bg-primary/90 transition-colors disabled:opacity-50"
+                    className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-black font-semibold rounded-lg hover:bg-primary/90 transition-colors disabled:opacity-50 whitespace-nowrap"
                   >
                     {isLoading ? "Subscribing..." : "Subscribe"}
                     {!isLoading && <ArrowRight size={18} />}
@@ -96,6 +96,7 @@ export function Newsletter() {
             <p className="text-[11px] text-muted-foreground mt-4">
               No spam. Unsubscribe anytime.
             </p>
+            </div>
           </div>
         </motion.div>
       </div>
