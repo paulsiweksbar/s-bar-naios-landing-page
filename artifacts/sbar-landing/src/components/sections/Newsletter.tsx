@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle } from "lucide-react";
 
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyVeTebcx2yDiSi3qmbZeDoTQofnBGlzH-zcgyo7r6Z6qT0YsZPSGARrzoIke0knlwocw/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwCQZvCNkaVICQcE4IOW4SDSJJfnfeoHt3W2LYOW4Xb9trLJtkUDsjMCIDsQYz0JyrxiA/exec";
 
 export function Newsletter() {
   const [email, setEmail] = useState("");
