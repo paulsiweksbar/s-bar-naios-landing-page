@@ -6,6 +6,7 @@ import { Services } from "@/components/sections/Services";
 import { VideoSection } from "@/components/sections/Video";
 import { Blog } from "@/components/sections/Blog";
 import { Sponsorships } from "@/components/sections/Sponsorships";
+import { Newsletter } from "@/components/sections/Newsletter";
 import { Contact } from "@/components/sections/Contact";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <VideoSection />
         <Blog />
         <Sponsorships />
+        <Newsletter />
         <Contact />
       </main>
     </div>
