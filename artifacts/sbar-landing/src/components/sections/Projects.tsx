@@ -7,21 +7,21 @@ import projectRealtermRoof from "@assets/realterm-roof-aurora.png";
 export function Projects() {
   const projects = [
     {
-      title: "REALTERM - Peyton",
+      title: "IOV Denver - Office & Cross-Dock Renovation",
+      description: "Selected by Industrial Outdoor Ventures for a full 12,136 SF office remodel — demolition, sealed concrete floors, bathroom and breakroom renovation, LED lighting conversion, full interior/exterior paint, and building envelope sealing.",
+      stats: "12,136 SF  ·  Denver, CO",
+      image: projectIov,
+      tags: ["Office + Cross-Dock", "6-Week Timeline"]
+    },
+    {
+      title: "REALTERM Houston - Site Infrastructure",
       description: "Full yard and site infrastructure remodel covering drainage, ditch regrading, and pavement at the Realterm/Formworks Houston facility. Major civil upgrades including a new storm water detention pond, head wall repairs, re-graded drainage ditches, and complete asphalt resurfacing across the yard.",
       stats: "Site Infrastructure  ·  Houston, TX",
       image: projectRealtermPeyton,
       tags: ["Civil Work"]
     },
     {
-      title: "IOV Broadway — Spec Remodel",
-      description: "Selected by Industrial Outdoor Ventures for a full 12,136 SF office remodel — demolition, sealed concrete floors, bathroom and breakroom renovation, LED lighting conversion, full interior/exterior paint, and building envelope sealing.",
-      stats: "12,136 SF  ·  Denver, CO",
-      image: projectIov,
-      tags: ["Office Make-Ready", "6-Week Timeline"]
-    },
-    {
-      title: "IOV San Gabriel — Laredo",
+      title: "IOV Laredo - Office & Warehouse Modernization",
       description: "From demo to final stretch — this Laredo facility got the full treatment from S-Bar Construction: complete office remodel (bathrooms, breakrooms, workspaces), warehouse pressure washing, interior/exterior paint, new high-bay lighting, fresh asphalt with seal coating and striping, rebuilt chain link fencing with new gates, and new concrete poured around the perimeter.",
       stats: "Full Site Transformation  ·  Laredo, TX",
       image: projectIovSanGabriel,
@@ -29,7 +29,7 @@ export function Projects() {
       tags: ["Full Scope", "Site Transformation"]
     },
     {
-      title: "REALTERM - Roof Replacement",
+      title: "REALTERM Denver - EPDM Roof Replacement",
       description: "S-Bar Construction completed a full commercial roof replacement at Realterm's active freight terminal in Aurora, Colorado. The project involved a complete tear-off of the existing roof system and installation of a new EPDM rubber membrane across the full roof deck. All HVAC curbs were properly flashed and sealed to manufacturer specifications, and termination details along the perimeter were carefully executed to ensure long-term waterproofing integrity.",
       stats: "Full Roof Replacement  ·  Aurora, CO",
       image: projectRealtermRoof,
