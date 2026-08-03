@@ -17,12 +17,13 @@ const VIDEOS = [
     id: "2EMfgMXup7o",
     title: "GCWA - Full Roof Renovation",
     label: "Field Work",
+    thumbnail: "/gcwa-calder-thumbnail.png",
   },
 ];
 
 function VideoCard({ video, index }: { video: typeof VIDEOS[0]; index: number }) {
   const [isPlaying, setIsPlaying] = useState(false);
-  const thumbnailUrl = `https://img.youtube.com/vi/${video.id}/hqdefault.jpg`;
+  const thumbnailUrl = video.thumbnail || `https://img.youtube.com/vi/${video.id}/hqdefault.jpg`;
 
   return (
     <motion.div
