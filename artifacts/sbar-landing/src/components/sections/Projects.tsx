@@ -21,12 +21,11 @@ export function Projects() {
       tags: ["Civil Work"]
     },
     {
-      title: "IOV Laredo - Office & Warehouse Modernization",
-      description: "From demo to final stretch — this Laredo facility got the full treatment from S-Bar Construction: complete office remodel (bathrooms, breakrooms, workspaces), warehouse pressure washing, interior/exterior paint, new high-bay lighting, fresh asphalt with seal coating and striping, rebuilt chain link fencing with new gates, and new concrete poured around the perimeter.",
-      stats: "Full Site Transformation  ·  Laredo, TX",
-      image: projectIovSanGabriel,
-      imagePosition: "13% 62%",
-      tags: ["Full Scope", "Site Transformation"]
+      title: "IOV Commerce Way - Warehouse & Site Improvements",
+      description: "Covered outdoor storage, small-bay warehouse, finished showroom, and a building envelope that needs some serious attention. Asphalt and warehouse improvements.",
+      stats: "Warehouse + Site  ·  Stockertown, PA",
+      image: "/iov-commerce-way.png",
+      tags: ["Warehouse"]
     },
     {
       title: "REALTERM Denver - EPDM Roof Replacement",
