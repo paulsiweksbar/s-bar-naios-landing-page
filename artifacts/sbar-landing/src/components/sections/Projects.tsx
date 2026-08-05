@@ -21,9 +21,9 @@ export function Projects() {
       tags: ["Civil Work"]
     },
     {
-      title: "IOV Commerce Way - Warehouse & Site Improvements",
-      description: "Covered outdoor storage, small-bay warehouse, finished showroom, and a building envelope that needs some serious attention. Asphalt and warehouse improvements.",
-      stats: "Warehouse + Site  ·  Stockertown, PA",
+      title: "IOV Commerce Way - Office, Shop and Warehouse Modernization",
+      description: "Covered outdoor storage, a small-bay warehouse, and a finished showroom sit alongside office and shop space in need of upgrades, plus a building envelope that needs some serious attention. Asphalt and site improvements round out the scope.",
+      stats: "Warehouse & Office Modernization  ·  Stockertown, PA",
       image: "/iov-commerce-way.png",
       tags: ["Warehouse"]
     },
